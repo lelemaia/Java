@@ -1,0 +1,1 @@
+Para poder realizar teste é necessário criar um mavenproject se não ele não gera o pomxml, e o teste não roda corretamente
