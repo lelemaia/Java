@@ -17,8 +17,8 @@ public class Teste {
         int tamanho = g.getTamanho();
         System.out.println(tamanho);
 
-        //exemplo aleatorio
-        Conta exemplo = g.getPosicao(1);// como a posicao informada é "g.getPosicao(posição: 1)" 
+        // exemplo aleatorio
+        Conta exemplo = g.getPosicao(1); // como a posicao informada é "g.getPosicao(posição: 1)" 
         System.out.println(exemplo.getNumero()); //  ele vai chamar o numero da cc2
     }
 }

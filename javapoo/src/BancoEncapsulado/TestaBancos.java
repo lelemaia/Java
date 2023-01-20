@@ -11,11 +11,12 @@ public class TestaBancos {
 		
 		Conta contaDoPaulo = new Conta(1111, 1);
 		contaDoPaulo.depositar(100);
-		contaDoPaulo.setTitular(paulo);     // PARA LIGAR O CLIENTE A CONTA
+		contaDoPaulo.setTitular(paulo);     // para ligar o cliente a conta
 		contaDoPaulo.status();
 		
 		
-		//OUTRO MODO DE FAZER  // QUE ESTAVA CERTO ANTES DE PRIVAR OS MÉTODOS
+		//OUTRO MODO DE FAZER  
+		// QUE ESTAVA CERTO ANTES DE PRIVAR OS MÉTODOS
 
 		//Conta contaDaMarcela = new Conta(44, 44);
 		//contaDaMarcela.depositar(300);

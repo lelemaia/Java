@@ -13,7 +13,7 @@ public class TesteReferencias {
         d1.setSalario(2000.0);
 
         ControleBonificacao controle = new ControleBonificacao();
-        controle.registra(g1); // realiza o metodo .registra
+        controle.registra(g1);  // realiza o metodo .registra
         controle.registra(ev1);
         controle.registra(d1);
 

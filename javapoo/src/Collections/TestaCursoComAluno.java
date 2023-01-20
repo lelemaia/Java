@@ -28,18 +28,18 @@ public class TestaCursoComAluno {
 		}
 		System.out.println(" ");
 
-		//procurando pelo a1 com o método estaMatriculado
+		// procurando pelo a1 com o método estaMatriculado
 		System.out.println("O aluno " + a1.getNome() + " está matriculado?");
 		System.out.println(javaColecoes.estaMatriculado(a1));
 		System.out.println(" ");
 
-		//procurando o aluno por string(turini)
+		// procurando o aluno por string (turini)
 		Aluno turini = new Aluno("Rodrigo Turini", 34672);
 		System.out.println("E esse Turini, está matriculado?");
 		System.out.println(javaColecoes.estaMatriculado(turini));
 		System.out.println(" ");
 
-		//procurando com equals
+		// procurando com equals
 		System.out.println("O a1 é equals ao Turini?");
 		System.out.println(a1.equals(turini));
 		System.out.println(" ");

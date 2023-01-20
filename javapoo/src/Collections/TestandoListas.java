@@ -20,27 +20,27 @@ public class TestandoListas {
 		}
 		System.out.println(" ");
 
-		//removeu o 1 item da lista
+		// removeu o 1 item da lista
 		aulas.remove(0);
 		System.out.println("Removido: " + aulas);
 		System.out.println(" ");
 
-		//pega a posição do item na lista
+		// pega a posição do item na lista
 		String primeiraAula = aulas.get(0);
 		System.out.println("Item na posição informada: " + primeiraAula);
 		System.out.println(" ");
 
-		//percorrendo a lista por indice
+		// percorrendo a lista por indice
 		for (int i = 0; i < aulas.size(); i++) {
 			System.out.println("Indice Aula: " + aulas.get(i));
 		}
 		System.out.println(" ");
 
-		//quantidade de itens na lista
+		// quantidade de itens na lista
 		System.out.println("quantidade de itens na lista: " + aulas.size());
 		System.out.println(" ");
 
-		//lambda "para cada elemento na coleção: faz tal coisa"
+		// lambda "para cada elemento na coleção: faz tal coisa"
 		aulas.forEach(aula -> {
 			System.out.println("Lambda Percorrendo: ");
 			System.out.println("Aula " + aula);

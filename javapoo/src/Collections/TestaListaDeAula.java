@@ -18,18 +18,18 @@ public class TestaListaDeAula {
 		System.out.println(aulas);
 		System.out.println(" ");
 
-		//chamando o compareTo criando na classe Aula
+		// chamando o compareTo criando na classe Aula
 		Collections.sort(aulas);
 		System.out.println("ordem alfabetica:");
 		System.out.println(aulas);
 		System.out.println(" ");
 
-		//comparando e ordenando por tempo dos videos
+		// comparando e ordenando por tempo dos videos
 		Collections.sort(aulas, Comparator.comparing(Aula::getTempo));
 		System.out.println("ordem tempo de video:");
 		System.out.println(aulas);
 		System.out.println(" ");
 		
-		aulas.sort(Comparator.comparing(Aula::getTempo)); //msm coisa do de cima
+		aulas.sort(Comparator.comparing(Aula::getTempo)); // msm coisa do de cima
 	}
 }

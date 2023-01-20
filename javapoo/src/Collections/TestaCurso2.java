@@ -21,14 +21,14 @@ public class TestaCurso2 {
 		System.out.println(aulasImutaveis);
 		System.out.println(" ");
 
-		//criou uma nova lista com os itens da outra(aulasImutaveis)
+		// criou uma nova lista com os itens da outra (aulasImutaveis)
 		List<Aula> aulasOrdemAlfabetica = new ArrayList<>(aulasImutaveis);
 		Collections.sort(aulasOrdemAlfabetica);
 		System.out.println("Lista Ordenada:");
 		System.out.println(aulasOrdemAlfabetica);
 		System.out.println(" ");
 		
-		//pega o método q calcula o tempo do curso
+		// pega o método q calcula o tempo do curso
 		System.out.println("Tempo do curso:");
 		System.out.println(javaColecoes.getTempoTotal());
 		System.out.println(" ");
