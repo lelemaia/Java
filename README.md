@@ -1,4 +1,4 @@
-# Programação Orientada a objetos (POO)
+# Programação Orientada a Objetos (POO)
 
 repositório com o básico do poo    
 estudo realizado com base nos cursos da Alura (2022)
